@@ -3,7 +3,6 @@ import { IdleExpiry } from './idleexpiry';
 import { Interrupt } from './interrupt';
 import { InterruptSource } from './interruptsource';
 import { KeepaliveSvc } from './keepalivesvc';
-import * as ɵngcc0 from '@angular/core';
 export declare enum AutoResume {
     disabled = 0,
     idle = 1,
@@ -63,8 +62,4 @@ export declare class Idle implements OnDestroy {
     private startKeepalive;
     private stopKeepalive;
     ngOnDestroy(): void;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<Idle, [null, null, { optional: true; }]>;
-    static ɵprov: ɵngcc0.ɵɵInjectableDef<Idle>;
 }
-
-//# sourceMappingURL=idle.d.ts.map

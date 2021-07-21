@@ -1,6 +1,5 @@
 import { IdleExpiry } from './idleexpiry';
 import { LocalStorage } from './localstorage';
-import * as ɵngcc0 from '@angular/core';
 export declare class LocalStorageExpiry extends IdleExpiry {
     private localStorage;
     private idleName;
@@ -13,8 +12,4 @@ export declare class LocalStorageExpiry extends IdleExpiry {
     private setExpiry;
     private getIdling;
     private setIdling;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<LocalStorageExpiry, never>;
-    static ɵprov: ɵngcc0.ɵɵInjectableDef<LocalStorageExpiry>;
 }
-
-//# sourceMappingURL=localstorageexpiry.d.ts.map
