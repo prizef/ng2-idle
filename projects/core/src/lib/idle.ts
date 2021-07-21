@@ -410,7 +410,7 @@ export class Idle implements OnDestroy {
     }
 
     this.onTimeoutWarning.emit(this.countdown);
-    
+
     const countdownMs = ((this.timeoutVal - 1) * 1000) + diff;
     this.countdown = Math.round(countdownMs / 1000);
   }

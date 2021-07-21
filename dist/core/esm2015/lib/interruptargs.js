@@ -1,0 +1,11 @@
+/*
+ * A class for expressing arguments to interrupt events.
+ */
+export class InterruptArgs {
+    constructor(source, innerArgs, force = false) {
+        this.source = source;
+        this.innerArgs = innerArgs;
+        this.force = force;
+    }
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW50ZXJydXB0YXJncy5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uL3Byb2plY3RzL2NvcmUvc3JjL2xpYi9pbnRlcnJ1cHRhcmdzLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUVBOztHQUVHO0FBQ0gsTUFBTSxPQUFPLGFBQWE7SUFDeEIsWUFDUyxNQUF1QixFQUN2QixTQUFjLEVBQ2QsUUFBUSxLQUFLO1FBRmIsV0FBTSxHQUFOLE1BQU0sQ0FBaUI7UUFDdkIsY0FBUyxHQUFULFNBQVMsQ0FBSztRQUNkLFVBQUssR0FBTCxLQUFLLENBQVE7SUFDbkIsQ0FBQztDQUNMIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgSW50ZXJydXB0U291cmNlIH0gZnJvbSAnLi9pbnRlcnJ1cHRzb3VyY2UnO1xyXG5cclxuLypcclxuICogQSBjbGFzcyBmb3IgZXhwcmVzc2luZyBhcmd1bWVudHMgdG8gaW50ZXJydXB0IGV2ZW50cy5cclxuICovXHJcbmV4cG9ydCBjbGFzcyBJbnRlcnJ1cHRBcmdzIHtcclxuICBjb25zdHJ1Y3RvcihcclxuICAgIHB1YmxpYyBzb3VyY2U6IEludGVycnVwdFNvdXJjZSxcclxuICAgIHB1YmxpYyBpbm5lckFyZ3M6IGFueSxcclxuICAgIHB1YmxpYyBmb3JjZSA9IGZhbHNlXHJcbiAgKSB7fVxyXG59XHJcbiJdfQ==
